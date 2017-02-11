@@ -2,14 +2,14 @@
     "id": "Joomla",
     "packaging_format": 1,
     "description": {
-        "en": "Open Source Webmail software",
-        "fr": "Webmail Open Source"
+        "en": "Open Source CMS",
+        "fr": "CMS"
     },
-    "url": "http://roundcube.net/",
+    "url": "https://www.joomla.fr/",
     "license": "free",
     "maintainer": {
-        "name": "kload",
-        "email": "kload@kload.fr"
+        "name": "marc",
+        "email": "lhuilliermarc@free.fr"
     },
     "requirements": {
         "yunohost": ">= 2.4.0"
@@ -26,8 +26,8 @@
                 "name": "domain",
                 "type": "domain",
                 "ask": {
-                    "en": "Choose a domain for Roundcube",
-                    "fr": "Choisissez un domaine pour Roundcube"
+                    "en": "Choose a domain for Joomla",
+                    "fr": "Choisissez un domaine pour Joomla"
                 },
                 "example": "domain.org"
             },
@@ -35,11 +35,11 @@
                 "name": "path",
                 "type": "path",
                 "ask": {
-                    "en": "Choose a path for Roundcube",
-                    "fr": "Choisissez un chemin pour Roundcube"
+                    "en": "Choose a path for Joomla",
+                    "fr": "Choisissez un chemin pour Joomla"
                 },
-                "example": "/webmail",
-                "default": "/webmail"
+                "example": "/Joomla",
+                "default": "/Joomla"
             }
         ]
     }
